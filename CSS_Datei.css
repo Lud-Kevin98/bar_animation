@@ -1,0 +1,25 @@
+body{
+    background: rgba(104, 80, 14, 0.398);
+}
+#marg2{
+    
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 3px;
+}
+
+.bar{
+    fill:#f9004d;
+}
+
+@keyframes spin {
+    
+    to{transform:rotate(360deg);}
+}
+@keyframes spin1 {
+    /* from {transform:rotate(0deg);} */
+    to{transform:rotate(359deg);}
+}
+
